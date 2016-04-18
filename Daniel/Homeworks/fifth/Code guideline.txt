@@ -1,0 +1,90 @@
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+------------------------- CODE GUIDELINE --------------------------
+-------------------------------------------------------------------
+-------------------------------------------------------------------
+
+**********
+* Format *
+********** 
+Se utilizaran variables del tipo: 
+
+ - float : para el manejo de valores numericos.
+ - string : para el manejo de valores de texto. 
+ 
+Para ello es necesario hacer la conversion correspondiente a cada valor recibido. e.g:
+
+	@price = price.to_f >>> Nos aseguramos que el valor recibido sea del tipo float
+	@name = name.to_s >>> Nos aseguramos que el valor recibido sea un string.
+
+************
+* Classes: *
+************
+
+El nombre de las clases deben comezar con una letra mayuscula.
+
+************
+* Methods: *
+************
+
+Cada clase debe tener su metodo contructor ( "initialize") para inciar los valores con los que se trabajan.
+
+	class Example
+		def initialize(name) 
+			@name = name
+		end
+	end
+
+Los metodos deben manejar entre parentesis los argumentos recibidos. e.g:
+
+	def welcome(name) 
+
+
+Cada metodo debe ser instanciado con los valores enviados entre parentesis
+
+	Example.new.welcome("Hola")
+
+*************
+* Variables *
+*************
+
+Se trabajara con 2 tipos de variables:
+ 
+ - Intance Variable: para trabajar dentro de la misma clase.
+
+e.g:
+	   def initialize(id, name, addr)
+		      @cust_id=id
+
+ - Class Variable: Para realizar el paso de variables entre clases.
+
+e.g: 
+	class One
+  		@@var = 234
+	end
+	
+	class Two < One
+  		@@var = 4
+	end
+
+*****************
+* Getter/Setter *
+*****************
+ 
+Los datos deben poder ser modificados en cualquie momento.
+Para ellos utilizamos variables de tipo: 
+ 
+- Getter/Setter, para utlizar ambos tipos se utiliza el atributo "attr_accesor" e.g:
+
+ 	attr_accessor :item_name
+
+****************
+* If condition *
+****************
+
+Se utilizara la expresion "short-if", para declaraciones de control. e.g:
+
+	result = (condition) ? (expression-if-true) : (expression-if-false)
+
+
+
