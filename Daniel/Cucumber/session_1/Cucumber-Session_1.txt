@@ -1,0 +1,59 @@
+RESEARCH
+
+When and why BDD was defined
+
+BDD es un conjunto de prácticas que buscan mejorar la comunicación de los requerimientos y expresar mediante ejemplos el diseño de un software. Esto ayuda a crear un lenguaje común entre el equipo que desarrolla y las personas que definen los requerimientos del negocio, permitiendo al equipo enfocarse en el desarrollo de software que verdaderamente cumpla las necesidades del cliente y quedando las especificaciones en un formato mas entendible para todos.
+
+The most important aspects of BDD
+
+Test Automation :
+process of automating the manual test cases
+
+Refactoring :
+making code clearer and cleaner and simpler and elegant
+
+Sustainable agility:
+Team ability to be proactive is enabled by their attention
+ to doing the work that is of the highest value to customers with high quality and reliability and an eye toward continual improvement despite increasing complexity
+
+Why is useful and when could be applied.
+
+Colaboracion
+Lenguaje simple (Ubiquitous language)
+Retroalimentacion
+Autodocumentacion
+Enfocado en el comportamiento
+
+Puede ser aplicada, para mejorar la calidad y facilidad de mantenimiento del sistema, como tambien es importante remarcar que cuando se aumenta la testeabilidad del software, se mejora directamente  la arquitectura y diseño del mismo. 
+
+
+Which type of teams could implement BDD
+
+Equipos de desarrollo y testeo agil.
+
+Structure of a feature – Give an example
+
+Structure
+	Nombre : Tener una guitarra
+	Prioridad : 1
+
+Structure of a user story – Give an example
+
+	Como un : Musico
+	Quiero : una guitarra
+	Para que : quiero hacer musica
+
+Structure of a scenario – Give an example
+
+	Dado : yo soy musico y tengo una guitarra
+	Cuando : yo toco la guitarra
+	Entonces : Hago hermosa musica
+
+Differences between BDD and BDT
+
+La principal diferencia entre el TDC y TDD es el enfoque y la redacción. 
+
+TDD esta dirigido a las pruebas. Ynormalmente estas se producen después del desarrollo de la aplicación, esto puede ocacionar una incomprensión no reconocida a tiempo y un comportamiento equivocado. 
+BDD se centra en el comportamiento y la especificación, es mas agil.
+Así BDD se entiende más fácilmente como práctica de diseño y no como la práctica de pruebas.
+
