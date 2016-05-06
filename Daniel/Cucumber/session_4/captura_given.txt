@@ -1,0 +1,34 @@
+C:\Users\DanielGonzales\Documents\Practicas-Ruby\Cucumber>cucumber features/give
+n_task.feature
+# Owner Feature: Daniel Gonzales
+# This feature covers the options to do enter an account
+Feature: Enter to account
+
+  Scenario: Enter to the page with credential valids        
+
+# features/given_tas k.feature:7
+    Given I select "Sign in"                                
+
+# features/step_definitions/given_task_sd.rb:1
+      TODO (Cucumber::Pending)
+      ./features/step_definitions/given_task_sd.rb:2:in `/^I select "(Sign in|create and acount)"$/'
+      features/given_task.feature:8:in `Given I select "Sign in"'
+ Given I select "create and acount"                      
+
+# features/step_definitions/given_task_sd.rb:1
+    When I need to enter to a account                       
+
+# features/given_task.feature:10
+    And I press in "Sign in" or "create and acoount" button 
+
+# features/given_task.feature:11
+    Then I should see the "account main" page               
+
+# features/step_definitions/given_task_sd.rb:5
+    Then I should see the "create a new account" page       
+
+# features/step_definitions/given_task_sd.rb:5
+
+1 scenario (1 pending)
+6 steps (3 skipped, 2 undefined, 1 pending)
+0m0.515s
